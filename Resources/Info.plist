@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>LocalFlow</string>
+    <key>CFBundleDisplayName</key>
+    <string>LocalFlow</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.localflow.app</string>
+    <key>CFBundleExecutable</key>
+    <string>LocalFlow</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>LocalFlow needs microphone access for on-device dictation.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>LocalFlow uses on-device speech recognition to transcribe your dictation.</string>
+    <key>NSAudioCaptureUsageDescription</key>
+    <string>LocalFlow captures system audio during meeting transcription so remote participants can be transcribed on-device.</string>
+</dict>
+</plist>

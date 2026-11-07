@@ -1,0 +1,14 @@
+# Xcode / SwiftPM
+.DS_Store
+*/.DS_Store
+.build/
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad
+
+# Local signing / certificates
+*.p12
+*.cer
+*.key
+localflow-signing.password
